@@ -1,2 +1,8 @@
 minimumReleaseAgeExclude:
   - athif-custom-package@1.0.1
+
+allowBuilds:
+  "@parcel/watcher": true
+  esbuild: true
+  lmdb: true
+  msgpackr-extract: true
